@@ -1,0 +1,47 @@
+Objectif : Réaliser une application de bureau qui de gérer ses animateurs.
+
+A faire :
+
+- Permettre d’entrer des nouveaux animateurs avec leurs coordonnées (adresse, mail, téléphone). ☐
+
+- Modifier ou de les supprimer (à condition qu’ils n’aient encore rien animé comme activité) ☐
+
+- Créer des animations et de définir quel animateur en est chargé. ☐
+
+- Etablir un planning pour chaque semaine sur lequel on verra les animations proposées par le camping et le nom des animateurs. ☐
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
+Attention ! :
+
+- Une activité pourra être encadrée par plusieurs animateurs
+
+- Chacun des animateurs ne pourra animer qu’une activité à la fois
+
+- il faudra veiller à ce que chaque animateur ne dépasse pas la durée maximale de 7 animations par jour.
+
+- L’application sera protégée : identifiant / mot de passe dans les règles de l’art et les données seront stockées dans un SGBD Mysql.
+
+- L’application donnera la possibilité d’envoyer un mail à chacun des animateurs avec le planning en pièce jointe et la liste des animations
+  les concernant pour la semaine.
+
+- L’application sera réalisée en Java / aide de classes dans un paradigme orienté objets
+
+- Le code sera stocké sur un dépôt git
+
+- Un rapport au format MarkDown
+
+
+Compte phpmyadmin :
+
+-Nathan
+-0550002D
