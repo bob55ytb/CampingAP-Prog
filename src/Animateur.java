@@ -28,7 +28,7 @@ public class Animateur {
         return gmailAnimateur;
     }
 
-    public String getCodePostalAnimateur() {
+    public int getCodePostalAnimateur() {
         return codePostalAnimateur;
     }
 
@@ -40,7 +40,7 @@ public class Animateur {
         return villeAnimateur;
     }
 
-    public String getTelephoneAnimateur() {
+    public int getTelephoneAnimateur() {
         return telephoneAnimateur;
     }
 
@@ -60,7 +60,7 @@ public class Animateur {
         gmailAnimateur = gmailAnimateur;
     }
 
-    public void setCodePostalAnimateur(String codePostalAnimateur) {
+    public void setCodePostalAnimateur(int codePostalAnimateur) {
         codePostalAnimateur = codePostalAnimateur;
     }
 
@@ -72,7 +72,7 @@ public class Animateur {
         villeAnimateur = villeAnimateur;
     }
 
-    public void setTelephoneAnimateur(String telephoneAnimateur) {
+    public void setTelephoneAnimateur(int telephoneAnimateur) {
         telephoneAnimateur = telephoneAnimateur;
     }
 }
