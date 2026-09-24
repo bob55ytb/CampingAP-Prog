@@ -7,5 +7,12 @@ public class DBase {
     private static final String UTILISATEUR = "Nathan";
     private static final String MOT_DE_PASSE = "0550002D";
 
-
+    public Connection getConnexion(){
+        try{
+            return DriverManager.getConnection(URL, UTILISATEUR, MOT_DE_PASSE);
+        } catch (Exception e){
+            System.out.println("Erreur base de donnée");
+            return null;
+        }
+    }
 }
